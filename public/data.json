@@ -1,0 +1,85 @@
+[
+    {
+      "id": "1",
+      "picture": "https://images.pexels.com/photos/1719647/pexels-photo-1719647.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "price": 33695,
+      "name": "Audi",
+      "gender": "male"
+    },
+    {
+      "id": "3",
+      "picture": "https://images.pexels.com/photos/1149137/pexels-photo-1149137.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "price": 21895,
+      "name": "Toyota",
+      "gender": "male"
+    },
+    {
+      "id": "4",
+      "picture": "https://images.pexels.com/photos/3972755/pexels-photo-3972755.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "price": 21563,
+      "name": "Lamborghini ",
+      "gender": "male"
+    },
+    {
+      "id": "5",
+      "picture": "https://images.pexels.com/photos/8664336/pexels-photo-8664336.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "price": 22516,
+      "name": "Lamborghini ",
+      "gender": "male"
+    },
+    {
+      "id": "6",
+      "picture": "https://images.pexels.com/photos/5762613/pexels-photo-5762613.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "price": 24861,
+      "name": "BMW",
+      "gender": "female"
+    },
+    {
+      "id": "7",
+      "picture": "https://images.pexels.com/photos/166054/pexels-photo-166054.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "price": 38578,
+      "name": "BMW",
+      "gender": "male"
+    },
+    {
+      "id": "8",
+      "picture": "https://images.pexels.com/photos/5759866/pexels-photo-5759866.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "price": 24861,
+      "name": "Ferarri",
+      "gender": "female"
+    },
+    {
+      "id": "9",
+      "picture": "https://images.pexels.com/photos/10566897/pexels-photo-10566897.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "price": 38578,
+      "name": "Audi",
+      "gender": "male"
+    },
+    {
+      "id": "10",
+      "picture": "https://images.pexels.com/photos/5870949/pexels-photo-5870949.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "price": 38578,
+      "name": "Range Rover",
+      "gender": "male"
+    },
+    {
+      "id": "11",
+      "picture": "https://images.pexels.com/photos/10029773/pexels-photo-10029773.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "price": 24861,
+      "name": "TESLA",
+      "gender": "female"
+    },
+    {
+      "id": "12",
+      "picture": "https://images.pexels.com/photos/225841/pexels-photo-225841.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "price": 38578,
+      "name": "Range Rover",
+      "gender": "male"
+    }, {
+      "id": "2",
+      "picture": "https://images.pexels.com/photos/116675/pexels-photo-116675.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "price": 35952,
+      "name": "Ranges Rover",
+      "gender": "male"
+    }
+  ]

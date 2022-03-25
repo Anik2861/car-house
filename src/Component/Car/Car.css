@@ -1,0 +1,33 @@
+.car-details{
+    display: grid;
+    grid-template-columns: 3,1;
+    position: relative;
+    background-color: rgba(61, 136, 206, 0.267);
+    padding: 5px;
+}
+.car-details:hover{
+   background-color:  rgba(30, 123, 210, 0.267);
+}
+.car{
+    height: 180px;
+    width: 250px;
+}
+.crt-btn{
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    background-color: #415c7c;
+    border: none;
+    font-weight: 900;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.crt-btn p{
+    margin-right: 8px;
+}
+.crt-btn:hover{
+  background-color: #192a56;
+}
