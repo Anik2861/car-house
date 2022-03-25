@@ -1,10 +1,11 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-  import {faShoppingCart } from '@fortawesome/free-solid-svg-icons'
+import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
 import './Car.css'
-const Car = (props) => {
-
-    const { name, price, picture,id } = props.allCar
+const Car = ({ allCar, handleAddToCart}) => {
+    // const {allCar,handleAddToCart}=props
+    
+    const { name, price, picture, id } = allCar
     return (
         <div className='car-details'>
             <div >
@@ -12,15 +13,15 @@ const Car = (props) => {
             </div>
             <div className='car-info'>
                 <h2>{name}</h2>
-                <h2>Price:${price}</h2>
+                <h3>Price: ${price}</h3>
                 <p><small>Id:{id}</small></p>
-                
-                <button className='crt-btn'>
-                    <p> Add to cart </p>
-                    <FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon>
-                    
-                    </button>
             </div>
+
+            <button onClick={() => handleAddToCart(allCar)}  className='crt-btn'>
+                <p> Add to cart </p>
+                <FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon>
+
+            </button>
         </div>
     );
 };

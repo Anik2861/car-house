@@ -10,3 +10,13 @@
     grid-gap: 30px 10px;
     padding: 5px;
 }
+.cart-container{
+    position: fixed;
+    right: 10px;
+    padding: 2px;
+    background-color: rgba(61, 136, 206, 0.267);
+    border-radius: 20px;
+}
+.car-info{
+    
+}

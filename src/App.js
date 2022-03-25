@@ -8,7 +8,7 @@ function App() {
     <div>
       <h1 className='title'>Car House</h1>
      <Shop></Shop>
-       <h1>hasdofgo</h1>
+      
     </div>
   );
 }

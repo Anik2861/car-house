@@ -1,0 +1,7 @@
+.selected-btn{
+  border: none;
+  background-image: linear-gradient(#192a56,#40739e);
+  border-radius: 10px;
+  font-weight: 700;
+  color: white;
+}
