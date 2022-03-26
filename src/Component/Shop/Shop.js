@@ -16,23 +16,41 @@ const Shop = () => {
         const addCars = [...cart, cars]
         setCart(addCars)
     }
-    return (
-        <div className='container'>
-            <div className='store-container'>
-                {
-                    cars.map(car => <Car
-                        allCar={car}
-                        key={car.id}
-                        handleAddToCart={handleAddToCart}
-                    ></Car>)
 
-                }
+    const chooseOneFromCart = () =>{
+        let newItem = []
+        const ran = Math.floor(Math.random() * cart.length)
+        newItem.push(cart[ran]);
+        setCart(newItem)
+    }
+    const removeAllFromCart = () =>{
+        setCart([])
+    }
+
+    return (
+        <div>
+            <div className='container'>
+                <div className='store-container'>
+                    {
+                        cars.map(car => <Car
+                            allCar={car}
+                            key={car.id}
+                            handleAddToCart={handleAddToCart}
+                        ></Car>)
+
+                    }
+                </div>
+                <div className='cart-container'>
+                    <Cart cart={cart} 
+                    chooseOneFromCart={chooseOneFromCart} removeAllFromCart={removeAllFromCart}
+                    ></Cart>
+                </div>
             </div>
-            <div className='cart-container'>
-                <Cart cart={cart}
-                     ></Cart>
-            </div>
+
+           
+
         </div>
+
     );
 };
 
