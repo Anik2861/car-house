@@ -17,7 +17,7 @@ const Cart = ({cart,chooseOneFromCart,removeAllFromCart }) => {
         <div>
             <h2>Selected Cars</h2>
             {
-                cart.map(card => <li>{card.name}</li>)
+                cart.map(card => <li className='selected-car'>{card.name}</li>)
             }
 
 

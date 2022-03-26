@@ -3,6 +3,7 @@
     grid-template-columns: 4fr 1fr;
     margin-left: 20px;
     margin-top: 20px;
+    position: absolute;
 }
 .store-container{
     display: grid;
@@ -14,9 +15,23 @@
     position: fixed;
     right: 10px;
     padding: 2px;
-    background-color: rgba(61, 136, 206, 0.267);
+    background-color: rgba(10, 130, 243, 0.267);
     border-radius: 20px;
 }
-.car-info{
-    
+.accrodion{
+    position: relative;
+    bottom: -1400px;
+    margin-bottom: 100px;
+}
+
+@media screen and (max-width:560px){
+    .container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+   .store-container{
+       display: grid;
+       grid-template-columns: 1fr;
+   }
+  
 }

@@ -5,3 +5,9 @@
   font-weight: 700;
   color: white;
 }
+.selected-car{
+  background-color: #40739e;
+  margin: 3px;
+  font-weight: 800;
+  border-radius: 5px;
+}
